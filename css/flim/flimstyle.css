@@ -1,0 +1,59 @@
+body{
+    background-color: rgba(0, 0, 0,.2);
+
+}
+.out{
+    display: flex;
+    
+}
+.color{
+    color: black;
+}
+.catalog{
+    width: 26%  ;
+    padding-left: 10%;
+    font-size: 22px;
+}
+.container{
+    padding-bottom: 10%;
+    padding-left: 55%;
+    width: 60%;
+}
+.total{
+  text-align: center;
+}
+#app{
+    width: 60%;
+   
+}
+.item_header{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    height: 10%;
+    background-color: #fff;
+   
+    padding-left: 0%;
+}
+.item_header div{
+    width: 20%;
+    color: #888;
+    line-height: 50px;
+}
+.item_header .item_detail{
+    align-items: center;
+    width: 50%;
+}
+.item_body{
+    margin-top: 20px;
+    height: 15%;
+    align-items: center;    
+}
+
+.item_detail .name{
+    margin-left: 15%;
+    margin-top: 2%;
+} 
+.footer{
+    margin-top: 10%;
+}

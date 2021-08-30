@@ -1,0 +1,28 @@
+body{
+    background-color: rgba(0, 0, 0,.2);
+
+}
+
+.catalog{
+    width: 26%  ;
+    padding-left: 10%;
+    font-size: 22px;
+    color: #000;
+}
+
+.film{
+    width: 90%;
+    height: 90%;
+    padding-left: 8%;
+    padding-right: 2%;
+}
+.container{
+    display: flex;
+}
+.filmdiv{
+    display: flex;
+}
+
+.color{
+    color: black;
+}

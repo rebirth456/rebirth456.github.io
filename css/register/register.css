@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    background: #f2f2f2;
+}
+.reg{
+    background-color: #fff;
+    width: 500px;
+    padding: 25px;
+    margin: 50px auto 0;
+    border-top: 5px solid #00663f;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.reg h1{
+    font-size: 24px;
+    line-height: 24px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.input-name{
+    width: 90%;
+    position: relative;
+    margin: 20px auto;
+}
+.name{
+    width: 100%;
+    padding: 8px 0 8px 40px;
+}
+.lock{
+    padding: 8px 11px;
+}
+.text-name{
+    width: 100%;
+    padding: 8px 0 8px 40px;
+}
+
+.input-name i{
+    position: absolute;
+    font-size: 18px;
+    border-right: 1px solid #cccccc;
+}
+.text-name, .name{
+    border: 1px solid #cccccc;
+    outline: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -ms-transition:all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.text-name:hover, .name:hover{
+    background-color: #fafafa;
+}
+.text-name:focus, .name:focus{
+    -webkit-box-shawod:0 0 2px 1px rgba(0, 99, 58, 0.5);
+    -moz-box-shadow:0 0 2px 1px rgba(0, 99, 58, 0.5);
+    box-shadow: 0 0 2px 1px rgba(0, 99, 58, 0.5);
+    border: 1px solid #00633d;
+    background: #fafafa;
+}
+.button{
+    background-color: #005733;
+    height: 35px;
+    line-height: 35px;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.button:hover{
+    background-color: #00dd81;
+}
+.lock{
+    width: 40px;
+}

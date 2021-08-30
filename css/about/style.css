@@ -1,0 +1,117 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container{
+  width: 100%;
+  min-height: 70vh;
+  background-color: #ddd;
+}
+.content{
+  width: 85%;
+  display: grid;
+  grid-template-columns: 400px 1fr 2fr;
+  grid-gap: 60px;
+  margin:30px auto;
+}
+.image-section{
+  width: 100%;
+  margin: auto;
+}
+.image-section img{
+  widows: 100%;
+  height: auto;
+}
+.content .article{
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.2);
+  background-color: #eee;
+  padding: 25px 25px;
+}
+.content .article h2{
+  color: #0f448a;
+  font-style: 22px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+.content .article p{
+  margin-top: 30px;
+  font-style: 19px;
+  line-height: 1.5;
+  color: #222;
+}
+.article{
+  width: 500px;
+  text-align: center;
+  height: auto;
+  border-radius: 50px 20px;
+}
+@media screen and (max-width:1048px) {
+  .content{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+}
+
+
+/* Our Team CSS */
+.team-section{
+  overflow: hidden;
+  text-align: center;
+  background: rgb(199, 199, 199);
+  padding: 60px;
+}
+.team-section h1{
+  margin-bottom: 60px;
+  color: rgb(0, 0, 0);
+  font-style: 40px;
+}
+.border{
+  display: block;
+  margin: auto;
+  widows: 160px;
+  height: 3px;
+  background: #007025;
+  margin-bottom: 40px;
+}
+.ps{
+  margin-bottom: 40px;
+}
+
+.ps a{
+  display: inline-block;
+  margin: 0 30px;
+  width: 160px;
+  height: 160px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.ps a img{
+  height: 100%;
+  width: 100%;
+  filter: grayscale(100%);
+  transition: 0.4s all;
+  
+}
+.ps a:hover > img{
+  filter: none;
+  cursor: pointer;
+}
+.section{
+  width: 600px;
+  margin: auto;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  text-align: justify;
+  height: 0;
+  overflow: hidden;
+}
+.section:target{
+  height: auto;
+}
+.name{
+  display: block;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 22px;
+}

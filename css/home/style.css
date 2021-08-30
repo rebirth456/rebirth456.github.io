@@ -1,0 +1,191 @@
+body, html {
+    
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    place-items: center;
+    font-family: "Open Sans",sans-serif;
+  }
+  
+  .hero-image {
+    top: 2%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./01.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 80%;
+    
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+  .hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .hero-text button:hover {
+    background-color: #555;
+    color: white;
+  }
+  #btn:hover {
+    background-color: #61bbf7;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+  }
+  #btn{
+      background-color: black;
+      color: white;
+      padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+  }
+  .hero-image p{
+    font-size: 60px;
+  }
+
+  /* 精選文章CSS */
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+#words{
+  margin: 20px;
+  
+}
+  .slider{
+      max-width: 100%;
+    display: flex;
+  }
+  .slider .card{
+      background: rgb(27, 63, 104);
+      flex: 1;
+      margin: 0 10px;
+  }
+  .slider .card .img{
+      height: 100%;
+      width: 100%;
+  }
+  .slider .card .img img{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+  }
+  .slider .card .content{
+      padding: 10px 20px;
+  }
+  .card .content .title{
+      color: #ffffff;
+      font-size: 25px;
+      font-weight: 600;
+  }
+  .card .content .sub-title{
+      font-size: 12px;
+      font-weight: 600;
+      color: #000000;
+      line-height: 20px;
+  }
+  .card .content p{
+      text-align: justify;
+      margin: 10px 0;
+  }
+  .card .content .btn-article button{
+      background: #ffffff;
+      color: #fff;
+      border: none;
+      outline: none;
+      font-size: 17px;
+      padding: 5px 8px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.2s;
+  }
+  .card .content .btn-article button:hover{
+        transform: scale(0.9);
+  }
+
+/* 熱銷商品CSS */
+#column-about {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  
+}
+
+@media screen and (max-width: 650px) {
+  #column-about {
+    width: 100%;
+    display: block;
+    
+  }
+}
+
+#card-about {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  
+}
+#card-about img{
+height: 300px;
+width: 100%;
+}
+
+
+#container-about {
+  padding: 0 16px;
+  text-align: center;
+  
+  
+}
+#container-about p{
+  color: red;
+  font-weight: 900;
+}
+
+#container-about::after, #row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#GO {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+#GO:hover {
+  background-color: #555;
+}
