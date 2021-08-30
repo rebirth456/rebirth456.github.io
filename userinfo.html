@@ -1,0 +1,167 @@
+﻿<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>健身網站 &mdash; SLOGAN</title>
+    <link rel="icon" href="./image/home/ah0sl-3nsav-001.ico" type="image/x-icon">
+	<link rel="icon" href="./image/home/ah0sl-3nsav-001.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="./images/home/ah0sl-3nsav-001.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/membetcenter/centerstyle.css"/>
+  <link rel="stylesheet" href="css/home/nav-footer.css">
+  <!-- font awesome金鑰 -->
+  <script src="https://kit.fontawesome.com/29450e8ffe.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"> </script>
+  <script type="text/javascript">
+    $(function () {
+      $(".menuson li").click(function () {
+        $(".menuson li.active").removeClass("active")
+        $(this).addClass("active");
+      });
+
+      $('.title').click(function () {
+        var $ul = $(this).next('ul');
+        $('dd').find('ul').slideUp();
+        if ($ul.is(':visible')) {
+          $(this).next('ul').slideUp();
+        } else {
+          $(this).next('ul').slideDown();
+        }
+      });
+    })
+  </script>
+
+
+</head>
+
+<body>
+  <!-- 目錄欄位 -->
+  <div class="nav">
+    <label class="logo">健身網站</label>
+    <ul>
+      <li><a href="./index.html" class="active">首頁</a></li>
+      <li><a href="./about.html">關於我</a></li>
+      <li><a href="./article.html">健身文章</a></li>
+      <li><a href="./film.html">健身影片</a></li>
+      <li><a href="./Q_A.html">常見Q&A</a></li>
+      <li><a href="./member.html"><i class="fas fa-user"></i></a></li>
+    </ul>
+    <label id="icon">
+      <i class="fas fa-bars"></i>
+    </label>
+  </div>
+
+  <div class="main">
+
+    <div class="left">
+      <dl class="leftmenu">
+        <div class="lefttop"><span><img src="image/membercenter/i07.png" width="20" /></span>會員中心</div>
+        <dd>
+          <div class="title">
+            <span><img src="image/membercenter/leftico01.jpg" width="17" /></span>會員管理
+          </div>
+          <ul class="menuson" style="display:block">
+            <li><cite></cite><a href="membercenter.html">會員信息</a></li>
+            <li><cite></cite><a href="userinfo.html">修改資料</a></li>
+            <li><cite></cite><a href="psw.html">修改密碼</a></li>
+          </ul>
+        </dd>
+
+
+        <dd>
+          <div class="title">
+            <span><img src="image/membercenter/leftico02.jpg" width="17" /></span>體重記錄
+          </div>
+          <ul class="menuson">
+            <li><cite></cite><a href="kgadd.html">新增記錄</a></li>
+          </ul>
+        </dd>
+
+
+        <dd>
+          <div class="title"><span><img src="image/membercenter/leftico03.jpg" width="17" /></span>社群</div>
+          <ul class="menuson">
+            <li><cite></cite><a href="friends.html">好友名單</a></li>
+            <li><cite></cite><a href="friendsAdd.html">好友新增</a></li>
+            <li><cite></cite><a href="friendsDel.Html">好友刪除</a></li>
+            <li><cite></cite><a href="friendsInvite.html">好友邀請</a></li>
+          </ul>
+        </dd>
+
+
+        <dd>
+          <div class="title"><span><img src="image/membercenter/leftico04.jpg" width="17" /></span>幫助</div>
+          <ul class="menuson">
+            <li><cite></cite><a href="ask.html">提問</a></li>
+          </ul>
+
+      </dl>
+    </div>
+    <div class="right">
+      <div class="place">
+        <ul class="placeul">
+          <li>修改資料</li>
+        </ul>
+      </div>
+      <div class="formbody">
+        <ul class="forminfo">
+          <li>
+            <label>姓名</label>
+            <input name="input" type="text" class="dfinput" />
+          </li>
+          <li>
+            <label>性別</label>
+            <select class="sex">
+              <option>男</option>
+              <option>女</option>
+              <option>不願透露</option>
+            </select>
+          </li>
+          <li>
+            <label>電子信箱</label>
+            <input name="input2" type="text" class="dfinput" />
+          </li>
+          <li>
+            <label>生日</label>
+            <input name="input3" type="text" class="dfinput" />
+          </li>
+          <li>
+            <label>地址</label>
+            <input name="input4" type="text" class="dfinput" />
+          </li>
+          <li>
+            <label>手機</label>
+            <input name="input5" type="text" class="dfinput" />
+          </li>
+          <li>
+            <label>&nbsp;</label>
+            <input name="input6" type="button" class="btn" value="確認" />
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+  </div>
+  <!-- 頁尾 -->
+  <footer>
+    <div class="footer-content">
+      <h3><b>Work Hard & Play Hard</b></h3>
+      <p><i>運動使我們充滿活力，活力使生命變得美麗</i></p>
+
+      <div class="footer-bottom">
+        <p>FOLLOW US ON SOCIL MEDIA</p>
+      </div>
+      <ul class="socials">
+        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+      </ul>
+    </div>
+
+  </footer>
+</body>
+
+</html>
